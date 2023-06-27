@@ -1,4 +1,4 @@
-# CodeIgniter 4 Application for Contact Management
+# CodeIgniter 4 Application for Contact Management System
 
 - This is a basic CRUD (Create, Read, Update, Delete) application developed in the PHP CodeIgniter 4 framework.
 - This is a simple contact management system where users can add, view, update, and delete contacts.
