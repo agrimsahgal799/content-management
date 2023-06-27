@@ -1,0 +1,108 @@
+*:focus {
+    outline: none;
+}
+html, body {
+    color: rgba(33, 37, 41, 1);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+.form-label{
+    font-weight: 600;
+}
+header {
+    background-color: rgba(247, 248, 249, 1);
+    padding: .4rem 2rem 0;
+    border-bottom: 1px solid #ebebeb;
+}
+section {
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 2.5rem 1.75rem 3.5rem 1.75rem;
+    min-height: 100vh;
+}
+footer {
+    background-color: rgba(221, 72, 20, .8);
+    text-align: center;
+}
+footer .environment {
+    color: rgba(255, 255, 255, 1);
+    padding: 2rem 1.75rem;
+}
+footer .copyrights {
+    background-color: rgba(62, 62, 62, 1);
+    color: rgba(200, 200, 200, 1);
+    padding: .25rem 1.75rem;
+}
+.item-inline-block{
+    display: inline-block !important;
+}
+.success_msg{
+    border: 1px solid #68e368;
+    background-color: #cffdcf;
+    color: #23b523;
+}
+.errors, .error_msg{
+    border: 1px solid #dd8585;
+    background-color: #f1bebe;
+    color: #b53333;
+}
+.success_msg, .error_msg, .errors{
+    padding: 8px 10px;
+    margin-bottom: 20px;
+}
+.errors ul{
+    margin: 0;
+    padding-left: 20px;
+}
+a.paginate_button{
+    position: relative;
+    display: inline-block;
+    padding: 0.5rem 0.75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #0d6efd;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    text-decoration: none;
+    cursor: pointer;
+}
+a.paginate_button.current{
+    z-index: 1;
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+.text-action{
+    cursor: pointer;
+}
+.modal-footer{
+    border-top: none;
+}
+#delete-contact-modal .modal-dialog{
+    max-width: 400px;
+}
+div.dataTables_wrapper div.dataTables_filter input{
+    margin-bottom: 15px;
+    border: 1px solid #dfe0e1;
+    height: 35px;
+    padding-left: 5px;
+}
+div.dataTables_wrapper div.dataTables_length select{
+    border: 1px solid #dfe0e1;
+} 
+@media(max-width:767px) {
+    div.dataTables_wrapper div.dataTables_filter input{
+        margin-top: 15px;
+    }
+    .dataTables_paginate{
+        padding-top: 15px;
+    }
+    #delete-contact-modal .modal-dialog{
+        margin: 10px auto;
+    }
+}
